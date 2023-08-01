@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ContactPage</title>
+    <style>
+        form
+        {
+            border: 1px solid black;
+            margin-right: 40px;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <hr>
+        <p>
+            <a href="./index.html">Home</a>
+            <a href="./education.html">Education</a>
+            <a href="./work.html">Work Experience</a>
+            <a href="./contact.html">Contact Me</a>
+        
+        </p>
+        <hr>
+    </div>
+
+    <div>
+        <h1>Contact Me</h1>
+    </div>
+    <div>
+       
+         <form action="./index.html" >
+            <p style="margin-left: 16px;">
+            Enter your info
+            <br>
+            <br>
+            <label for="Fname"> Your Name</label>
+            <br>
+            <input style="width: 250px;" type="text"id="Fname"name="Fname" value="" > 
+            <br>
+            <label for="Lname"> Your LastName</label>
+            <br>
+            <input style="width: 250px;" type="text"id="Lname"name="Lname" value="" > 
+            <br>
+             <br>
+            <label for="Gender"> Your Gender</label>
+            <br>
+            <select style="width: 250px;" id ="Gender"name="Gender" size="1">
+                <option value="none"selected disabled hidden>select</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="other">Other</option>
+            </select>
+            <br>
+            <br>
+                Message
+                <br>
+                <textarea name="message"  cols="30" rows="10"></textarea>
+            <br>
+            <br>
+            <br>
+            <input type="submit" value="Submit">
+            <input type="reset">
+        </p>
+         </form>
+    </div>
+    
+</body>
+</html>
